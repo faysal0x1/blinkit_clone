@@ -60,7 +60,7 @@ class CartScreen extends StatelessWidget {
                               fontweight: FontWeight.bold,
                               fontSize: 14),
                           UiHelper.CustomText(
-                              text: "- Sujal Dave, Ratanada, Jodhpur (Raj)",
+                              text: "- Ahmed Faysal, Mirpur, Dhaka (Dhk)",
                               color: Color(0XFF000000),
                               fontweight: FontWeight.bold,
                               fontSize: 14)
