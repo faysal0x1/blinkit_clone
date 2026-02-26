@@ -1,3 +1,4 @@
+import 'package:blinkit_clone/repository/screens/bottomnav/bottomnavscreen.dart';
 import 'package:blinkit_clone/repository/widgets/uihelper.dart';
 import 'package:flutter/material.dart';
 
@@ -58,7 +59,11 @@ class Loginscreen extends StatelessWidget {
                       height: 48,
                       width: 295,
                       child: ElevatedButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.push(context, 
+                          MaterialPageRoute(builder: (context)=>Bottomnavscreen())
+                          );
+                        },
                         style: ElevatedButton.styleFrom(
                           backgroundColor: Color(0xFFE23744),
                           shape: RoundedRectangleBorder(
@@ -91,8 +96,7 @@ class Loginscreen extends StatelessWidget {
                     ),
                     SizedBox(height: 15),
                     UiHelper.CustomText(
-                      text:
-                      "or login with phone number",
+                      text: "or login with phone number",
                       color: Color(0XFF269237),
                       fontweight: FontWeight.normal,
                       fontSize: 15,
